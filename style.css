@@ -1,0 +1,83 @@
+
+
+  
+   * {
+    box-sizing: border-box;
+  }
+  
+  .box1 {
+    padding: 50px;
+    transition: transform .6s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    align-items: start;
+  }
+  
+  .box2 {
+    padding: 50px;
+    transition: transform .6s;
+    width: 75px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: left;
+  }
+
+  .box3 {
+    padding: 50px;
+    transition: transform .6s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+  } 
+     
+  .box4 {
+    padding: 50px;
+    transition: transform .6s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: right;
+  } 
+
+  .box1:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+    
+  .box2:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+    
+  .box3:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+    
+  .box4:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }
+    
+
+
+
+
+  .box {
+    display: grid;
+    width: 720px;
+    grid-template-columns: 180px 190px 220px 240px;
+    align-items: auto;
+    justify-content: space-between;
+  }
+  
+  .box :first-child {
+      align-self: center;
+  }
+        
